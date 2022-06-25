@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="full-page">
+        <div class="navbar">
+            <div class="nav-item" id="nav-img">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="nav-item">
+                <button class="nav-button" id="home_button" href="">Home</button>
+                <button class="nav-button" href="">About</button>
+                <button class="nav-button" href="">Recipes</button>
+                <button class="nav-button" href="">Blog</button>
+            </div>
+        </div>
+        <div id="search_and_random">
+            <div class="search-portion">
+                <div>
+                    <input id="search_input" placeholder="search for meal..." type="text">
+                    <button id="search_button">Search</button>
+                </div>
+            </div>
+            <div id="show_meal_random"></div>
+        </div>
+        <div id="show_search_meal"></div>
+        <div id="show_details"></div>
+    </div>
+    <script src="node.js"></script>
+</body>
+
+</html>
